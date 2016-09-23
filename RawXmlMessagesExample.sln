@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawXmlMessagesExample.Services", "RawXmlMessagesExample.Services\RawXmlMessagesExample.Services.csproj", "{CA7F6F82-F9A2-4888-B537-3B4BCF17DEDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawXmlMessagesExample.Client", "RawXmlMessagesExample.Client\RawXmlMessagesExample.Client.csproj", "{BAA9720F-B0DA-4FAE-97ED-092A4C51797F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA7F6F82-F9A2-4888-B537-3B4BCF17DEDB}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{CA7F6F82-F9A2-4888-B537-3B4BCF17DEDB}.Debug|Any CPU.Build.0 = Debug|x86
+		{CA7F6F82-F9A2-4888-B537-3B4BCF17DEDB}.Release|Any CPU.ActiveCfg = Release|x86
+		{CA7F6F82-F9A2-4888-B537-3B4BCF17DEDB}.Release|Any CPU.Build.0 = Release|x86
+		{BAA9720F-B0DA-4FAE-97ED-092A4C51797F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{BAA9720F-B0DA-4FAE-97ED-092A4C51797F}.Debug|Any CPU.Build.0 = Debug|x86
+		{BAA9720F-B0DA-4FAE-97ED-092A4C51797F}.Release|Any CPU.ActiveCfg = Release|x86
+		{BAA9720F-B0DA-4FAE-97ED-092A4C51797F}.Release|Any CPU.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8a2aea8f-b4ba-4168-b992-12ec497411d0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:6789/PawelSzczygielski/v1_0/RawXmlMessageExampleService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RawXmlMessageExampleService.xsd" MetadataType="Schema" ID="6f2fc857-8019-40e2-a8d7-4c22874e5666" SourceId="1" SourceUrl="http://localhost:6789/PawelSzczygielski/v1_0/RawXmlMessageExampleService?xsd=xsd0" />
+    <MetadataFile FileName="RawXmlMessageExampleService1.xsd" MetadataType="Schema" ID="ce4e08de-6c26-46d0-bd53-382855337424" SourceId="1" SourceUrl="http://localhost:6789/PawelSzczygielski/v1_0/RawXmlMessageExampleService?xsd=xsd1" />
+    <MetadataFile FileName="ComplexService.wsdl" MetadataType="Wsdl" ID="0c86994d-9938-4d4a-8d98-6bd712e9e4ab" SourceId="1" SourceUrl="http://localhost:6789/PawelSzczygielski/v1_0/RawXmlMessageExampleService?wsdl" />
+    <MetadataFile FileName="RawXmlMessageExampleService2.xsd" MetadataType="Schema" ID="b7f30328-a411-4bc4-b3f4-bd7dd65ebfad" SourceId="1" SourceUrl="http://localhost:6789/PawelSzczygielski/v1_0/RawXmlMessageExampleService?xsd=xsd2" />
+    <MetadataFile FileName="RawXmlMessageExampleService.disco" MetadataType="Disco" ID="d1ded117-bba1-463b-b9ef-a3b3418f8fc8" SourceId="1" SourceUrl="http://localhost:6789/PawelSzczygielski/v1_0/RawXmlMessageExampleService?disco" />
+    <MetadataFile FileName="RawXmlMessageExampleService.wsdl" MetadataType="Wsdl" ID="7112ce76-3c61-40ea-b74b-5f50aa5cade2" SourceId="1" SourceUrl="http://localhost:6789/PawelSzczygielski/v1_0/RawXmlMessageExampleService?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
