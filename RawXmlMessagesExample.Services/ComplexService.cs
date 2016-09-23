@@ -12,6 +12,7 @@ namespace RawXmlMessagesExample.Services
         ComplexResponse DoComplexOperation(ComplexRequest obj);
     }
 
+    [AddXmlToFileDispatcherServiceBehavior(@"C:\Temp\AdditionalLogs")]
     [ServiceBehavior]
     public class ComplexService : IComplexService
     {

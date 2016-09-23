@@ -14,8 +14,7 @@ namespace RawXmlMessagesExample.Services
 
                 Console.WriteLine("Complex service started");
 
-                while (true)
-                    Thread.Sleep(1000);
+                Thread.Sleep(1000);
             }
         }
     }
