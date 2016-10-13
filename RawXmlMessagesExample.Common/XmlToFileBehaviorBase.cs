@@ -5,7 +5,7 @@ using System.ServiceModel.Channels;
 using System.Text;
 using System.Xml;
 
-namespace RawXmlMessagesExample.Services
+namespace RawXmlMessagesExample.Common
 {
     public abstract class XmlToFileBehaviorBase
     {

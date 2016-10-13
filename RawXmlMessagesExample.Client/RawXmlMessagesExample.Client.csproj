@@ -93,6 +93,12 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RawXmlMessagesExample.Common\RawXmlMessagesExample.Common.csproj">
+      <Project>{e38912e2-6d9f-4d5b-915f-7e3a69f1f1c6}</Project>
+      <Name>RawXmlMessagesExample.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

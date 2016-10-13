@@ -5,7 +5,7 @@ using System.ServiceModel.Channels;
 using System.ServiceModel.Description;
 using System.ServiceModel.Dispatcher;
 
-namespace RawXmlMessagesExample.Services
+namespace RawXmlMessagesExample.Common
 {
     public sealed class AddXmlToFileDispatcherServiceBehavior : Attribute, IServiceBehavior, IEndpointBehavior
     {

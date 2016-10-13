@@ -3,7 +3,7 @@ using System.ServiceModel;
 using System.ServiceModel.Channels;
 using System.ServiceModel.Dispatcher;
 
-namespace RawXmlMessagesExample.Services
+namespace RawXmlMessagesExample.Common
 {
     public sealed class XmlToFileDispatchMessageInspector : XmlToFileBehaviorBase, IDispatchMessageInspector
     {

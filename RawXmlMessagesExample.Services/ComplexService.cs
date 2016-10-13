@@ -2,6 +2,7 @@
 using System.Net;
 using System.ServiceModel;
 using System.ServiceModel.Web;
+using RawXmlMessagesExample.Common;
 
 namespace RawXmlMessagesExample.Services
 {
@@ -12,7 +13,7 @@ namespace RawXmlMessagesExample.Services
         ComplexResponse DoComplexOperation(ComplexRequest obj);
     }
 
-    [AddXmlToFileDispatcherServiceBehavior(@"C:\Temp\AdditionalLogs")]
+    [AddXmlToFileDispatcherServiceBehavior(@"C:\Temp\AdditionalLogs\Service")]
     [ServiceBehavior]
     public class ComplexService : IComplexService
     {

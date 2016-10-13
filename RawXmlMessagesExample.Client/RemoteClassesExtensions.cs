@@ -23,4 +23,6 @@ namespace RawXmlMessagesExample.Client.RemoteComplexService
             TimeStamp = timeStamp;
         }
     }
+
+   
 }
