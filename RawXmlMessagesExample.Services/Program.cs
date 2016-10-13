@@ -10,6 +10,13 @@ namespace RawXmlMessagesExample.Services
         {
             using (var host = new ServiceHost(typeof(ComplexService)))
             {
+                ////If you want to add Behavior without Attribute mechanism
+                //foreach (ServiceEndpoint endpoint in host.Description.Endpoints)
+                //{
+                //    endpoint.Behaviors.Add(
+                //        new AddXmlToFileDispatcherServiceBehavior(@"C:\Temp\AdditionalLogs\Service"));
+                //}
+
                 host.Open();
 
                 Console.WriteLine("Complex service started");

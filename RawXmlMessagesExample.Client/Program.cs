@@ -23,5 +23,5 @@ namespace RawXmlMessagesExample.Client
     }
 
 
-
+    //dodac teraz info o tym jak dodawac bez atrybutu contactbehavior
 }
