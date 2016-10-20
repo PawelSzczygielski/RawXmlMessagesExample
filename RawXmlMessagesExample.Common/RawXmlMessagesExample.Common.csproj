@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="AddXmlToFileDispatcherServiceBehavior.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="XmlToFileBehaviorBase.cs" />
     <Compile Include="XmlToFileDispatchMessageInspector.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -18,11 +18,13 @@ namespace RawXmlMessagesExample.Common
 
         public void Validate(ServiceDescription serviceDescription, ServiceHostBase serviceHostBase)
         {
+            //No implementation necessary
         }
 
         public void AddBindingParameters(ServiceDescription serviceDescription, ServiceHostBase serviceHostBase, Collection<ServiceEndpoint> endpoints,
             BindingParameterCollection bindingParameters)
         {
+            //No implementation necessary
         }
 
         public void ApplyDispatchBehavior(ServiceDescription serviceDescription, ServiceHostBase serviceHostBase)
@@ -37,21 +39,23 @@ namespace RawXmlMessagesExample.Common
 
         public void Validate(ServiceEndpoint endpoint)
         {
+            //No implementation necessary
         }
 
         public void AddBindingParameters(ServiceEndpoint endpoint, BindingParameterCollection bindingParameters)
         {
+            //No implementation necessary
         }
 
         public void ApplyDispatchBehavior(ServiceEndpoint endpoint, EndpointDispatcher endpointDispatcher)
         {
-            var inspector = new XmlToFileDispatchMessageInspector(_storageFolderPath);
-            endpointDispatcher.DispatchRuntime.MessageInspectors.Add(inspector);
+            //No implementation necessary
         }
 
         public void ApplyClientBehavior(ServiceEndpoint endpoint, ClientRuntime clientRuntime)
         {
-
+            var inspector = new XmlToFileDispatchMessageInspector(_storageFolderPath);
+            clientRuntime.MessageInspectors.Add(inspector);
         }
     }
 }
